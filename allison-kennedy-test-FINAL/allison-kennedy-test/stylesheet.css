@@ -1,0 +1,831 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (min-width: 0px) {
+	
+	/* General */
+	
+	html {
+    	height:100%;
+	}
+	
+	body {
+		margin: 0;
+		font-family: 'aleolight';
+	}
+	
+	/* Header  */
+	
+	#header {
+		background-color: #89b8ea; 
+		margin: 0 auto;
+		padding-bottom: 40px;
+	}
+	
+	#logo {
+		height: 66px;
+		width: 66px;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+	
+	#navbar {
+		color: #FFFFFF;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 7pt;
+		margin-top: 10px;
+		line-height: 170%;
+	}
+
+	#navbar a:link, #navbar a:visited {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	#navbar a:hover {
+		text-decoration: underline;
+	}
+	
+	#iphone-sm, #iphone-med, #iphone-large, #iphone-full, #iphone-full-2 {
+		display: none;
+	}
+
+	#headertext {
+		width: 80%;
+		text-align: left;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	#headertext1 {
+		color: #FFFFFF;
+		font-size: 24pt;
+		width: 90%;
+	}
+
+	#headertext2 {
+		color: #FFFFFF;
+		font-size: 8pt;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: lighter;
+		margin-top: 10px;
+		line-height: 150%;
+	}
+
+	#seework {
+		color: #FFFFFF;
+		font-size: 8pt;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: lighter;
+		border: 2px solid #FFFFFF;
+		width: 140px;
+		margin-top: 10px;
+		padding: 10px 20px;
+		text-align: center;
+	}
+
+	#seework a:link, #seework a:visited, #seework a:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	/* What we do */
+
+	#whatwedo {
+		margin: 40px auto;
+		width: 80%;
+		text-align: center;
+	}
+
+	#whatwedotext1 {
+		color: #89b8ea;
+		font-size: 24pt;
+	}
+
+	#whatwedotext2 {
+		color: #636363;
+		font-size: 8pt;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: lighter;
+		margin-top: 10px;
+		line-height: 150%;
+	}
+	
+	#whatwedo-icons {
+		background: url(images/whatwedo-icons-sm.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		margin-top: -20px;
+		height: 50px;
+		color: #FFFFFF;
+	}
+	
+	/* Call for superheroes */
+	
+	#greybg {
+		background-color: #636363;
+		background-image:url(images/openings-med.jpg);
+		background-repeat: no-repeat;
+		background-size: cover; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+	}
+	
+	#callforsuperheroes {
+		margin: 40px auto;
+		margin-bottom: 0;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		width: 80%;
+	}
+	
+	#calltext1 {
+		color: #FFFFFF;
+		font-size: 24pt;
+	}
+	
+	#seeopenings {
+		color: #FFFFFF;
+		font-size: 8pt;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: lighter;
+		border: 2px solid #FFFFFF;
+		width: 140px;
+		margin: 10px auto;
+		padding: 10px 20px;
+		text-align: center;
+	}
+
+	#seeopenings a:link, #seeopenings a:visited, #seeopenings a:hover {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	/* Video */
+	
+	#videotext {
+		margin: 40px auto;
+		text-align: center;
+		color: #89b8ea;
+		font-size: 24pt;
+	}
+	
+	#videotext a:link, #videotext a:visited {
+		color: #89b8ea;
+	}
+	
+	#videotext a:hover {
+		color: #636363;
+	}
+	
+	#video-small, #video-med, #video-large, #video-full {
+		display: none;
+	}
+	
+	/* Get in touch */
+	
+	#getintouch {
+		margin: 40px auto;
+		width: 80%;
+		text-align: left;
+		color: #636363;
+		font-size: 24pt;
+	}
+
+	#address {
+		color: #636363;
+		font-size: 8pt;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: lighter;
+		margin-top: 10px;
+		line-height: 150%;
+	}
+	
+	#socialicons {
+		color: #FFFFFF;
+	}
+	
+	#socialicons-wh {
+		display: none;
+	}
+	
+	#map {
+		background-image: url(images/map-small.jpg);
+		background-size: cover;
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+		background-repeat: no-repeat;
+		min-height: 250px;
+		color: #FFFFFF;
+		font-size: 1pt;
+	}
+	
+	#map-full {
+		display: none;
+	}
+	
+	/* Contact us */
+
+	#contactus {
+		margin: 40px auto;
+		width: 80%;
+		text-align: center;
+	}
+
+	#contactus1 {
+		color: #89b8ea;
+		font-size: 24pt;
+	}
+
+	#contactus2 {
+		color: #636363;
+		font-size: 8pt;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: lighter;
+		margin-top: 10px;
+		line-height: 150%;
+	}
+	
+	#contacttable {
+		margin: 20px auto;
+	}
+	
+	textarea {
+    	resize: none;
+		font-size: 8pt;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: lighter;
+		padding: 5px;
+		width: 270px;
+		height: 14px;
+		overflow: hidden;
+		margin: 3px 0;
+	}
+	
+	#button {
+		border: 1px solid #aaa;
+		color: #aaa;
+		background-color: #FFFFFF;
+		padding: 5px;
+		margin-top: 10px;
+		font-size: 8pt;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: lighter;
+	}
+	
+	/* Footer */
+	
+	#footer {
+		background-color: #89B8EA;
+		margin: 0;
+	}
+	
+	#footertext {
+		color: #FFFFFF;
+		margin: 40px auto;
+		margin-bottom: 0;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+		width: 80%;
+		font-size: 8pt;
+	}
+}
+
+@media screen and (min-width: 482px) {
+	
+	/* Header */
+	
+	#header {
+		background-image:url(images/header-med.jpg);
+		background-repeat: no-repeat;
+		background-size: cover; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+		margin: 0 auto;
+		padding-bottom: 30px;
+	}
+	
+	/* Get in touch */
+	
+	#map {
+		background-image: url(images/map-med.jpg);
+		min-height: 250px;
+	}
+	
+	/* Contact us */
+	
+	textarea {
+		width: 385px;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	
+	/* Header */
+	
+	#header {
+		background-image:url(images/header-med-2.jpg);
+	}
+	
+	#logo {
+		margin-left: 10%;
+	}
+	
+	#navbar {
+		font-size: 9pt;
+		margin-top: -50px;
+		margin-right: 10%;
+		text-align: right;
+		line-height: normal;
+	}
+
+	#headertext {
+		margin-top: 50px;
+	}
+
+	#headertext1 {
+		font-size: 30pt;
+	}
+
+	#headertext2 {
+		margin-top: 15px;
+		font-size: 9pt;
+		line-height: 175%;
+	}
+
+	#seework {
+		margin: 0 auto;
+		margin-top: 20px;
+		text-align: center;
+		font-size: 9pt;
+	}
+	
+	/* What we do */
+	
+	#whatwedo {
+		width: 60%;
+	}
+
+	#whatwedotext1 {
+		font-size: 30pt;
+	}
+
+	#whatwedotext2 {
+		font-size: 9pt;
+		margin-top: 15px;
+		line-height: 175%;
+	}
+	
+	#whatwedo-icons {
+		margin-bottom: 40px;
+	}
+	
+	/* Call for superheroes */
+	
+	#calltext1 {
+		font-size: 30pt;
+	}
+	
+	#seeopenings {
+		font-size: 9pt;
+		margin: 20px auto;
+		margin-bottom: 0;
+	}
+	
+	/* Video */
+	
+	#videotext {
+		display: none;
+	}
+	
+	#video-small {
+		display: block;
+		background-color: #e9e9e9;
+		text-align: center;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	
+	/* Get in touch */
+	
+	#intouchtext {
+		background: rgba(50, 50, 50, .7);
+		width: 270px;
+		margin-left: 10%;
+		position: relative;
+	}
+	
+	#getintouch {
+		margin: 50px auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		width: 80%;
+		text-align: left;
+		color: #FFFFFF;
+		font-size: 20pt;
+	}
+
+	#address {
+		color: #FFFFFF;
+		font-size: 9pt;
+	}
+	
+	#socialicons {
+		display: none;
+	}
+	
+	#socialicons-wh {
+		display: block;
+		margin-top: -15px;
+		margin-left: -11px;
+	}
+	
+	#map {
+		background-image: url(images/map.jpg);
+		background-size: cover;
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin-top: -402px;
+		min-height: 400px;
+	}	
+	
+	/* Contact us */
+
+	#contactus1 {
+		font-size: 30pt;
+	}
+
+	#contactus2 {
+		font-size: 9pt;
+	}
+	
+	textarea {
+		font-size: 9pt;
+		height: 16px;
+		overflow: hidden;
+		margin: 5px auto;
+		width: 480px;
+	}
+	
+	#contacttable {
+		margin: 10px auto;
+		text-align: center;
+	}
+	
+	#button {
+		font-size: 9pt;
+	}
+	
+	/* Footer */
+	
+	#footertext {
+		font-size: 10pt;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	
+	/* Header */
+	
+	#header {
+		background-image:url(images/header-full.jpg);
+		background-size: 100%;
+	}
+	
+	#iphone-sm {
+		display: block;
+		margin-top: 40px;
+		margin-right: 9%;
+		float: right;
+	}
+	
+	#headertext {
+		margin-top: 70px;
+		width: 42%;
+		margin-left: 10%;
+		padding-bottom: 10px;
+	}
+	
+	#headertext1 {
+		width: 90%;
+	}
+
+	#headertext2 {
+		margin-top: 15px;
+	}
+
+	#seework {
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	
+	/* What we do */
+	
+	#whatwedo {
+		width: 50%;
+	}
+	
+	/* Video */
+	
+	#video-small {
+		display: none;
+	}
+	
+	#video-med {
+		display: block;
+		background-color: #e9e9e9;
+		text-align: center;
+		display: block;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	
+}
+
+@media screen and (min-width: 900px) {
+	
+	/* Header */
+	
+	#header {
+		height: 500px;
+	}
+	
+	#headertext {
+		padding-bottom: 70px;
+		width: 40%;
+	}
+	
+	#iphone-sm {
+		display: none;
+	}
+	
+	#iphone-med {
+		display: block;
+		margin-top: 40px;
+		margin-right: 9%;
+		float: right;
+	}
+	
+	/* Get in touch */
+	
+	#map {
+		margin-top: -402px;
+	}
+	
+}
+
+@media screen and (min-width: 1000px) {
+	
+	/* Header */
+	
+	#header {
+		height: 620px;
+	}
+	
+	#headertext1, #whatwedotext1, #calltext1, #contactus1 {
+		font-size: 36pt;
+	}
+	
+	#headertext2, #seework, #whatwedotext2, #seeopenings, #address, #contactus2, #button, #footertext {
+		font-size: 11pt;
+	}
+	
+	#headertext1 {
+		width: 80%;
+	}
+	
+	#headertext2 {
+		line-height: 180%;
+		width: 80%;
+	}
+	
+	#navbar {
+		font-size: 10pt;
+	}
+	
+	#headertext {
+		margin-top: 100px;
+		width: 44%;
+		margin-left: 10%;
+		padding-bottom: 60px;
+	}
+	
+	#iphone-med {
+		display: none;
+	}
+	
+	#iphone-large {
+		display: block;
+		margin-top: 40px;
+		margin-right: 9%;
+		float: right;
+	}
+	
+	/* What we do */
+	
+	#whatwedo-icons {
+		background: url(images/whatwedo-icons.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100px;
+	}
+	
+	/* Call for superheroes */
+	
+	#greybg {
+		background-color: #636363;
+		background-image:url(images/openings-full.jpg);
+		height: 280px;
+		background-repeat: no-repeat;
+		background-size: cover; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+	}
+	
+	#callforsuperheroes {
+		padding-top: 80px;
+	}
+	
+	/* Video */
+	
+	#video-med {
+		display: none;
+	}
+	
+	#video-large {
+		display: block;
+		background-color: #e9e9e9;
+		text-align: center;
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	
+	/* Get in touch */
+	
+	#getintouch {
+		font-size: 24pt;
+	}
+	
+	#map {
+		min-height: 500px;
+		margin-top: -480px;
+	}
+	
+	#intouchtext {
+		margin-top: 80px;
+	}
+	
+	/* Contact us */
+	
+	textarea {
+		width: 600px;
+		font-size: 10pt;
+		overflow: hidden;
+		height: 16px;
+	}
+	
+}
+
+@media screen and (min-width: 1200px) {
+	
+	/* General */
+	
+	#whatwedotext1, #calltext1, #contactus1 {
+		font-size: 42pt;
+	}
+	
+	#seework, #whatwedotext2, #seeopenings, #address, #contactus2, #button, #footertext {
+		font-size: 12pt;
+	}
+	
+	/* Header */
+	
+	#header {
+		background-size: cover;
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+		height: 700px;
+	}
+	
+	#textandphone {
+		margin: 0 auto;
+		width: 80%;
+	}
+	
+	#headertext {
+		width: 60%;
+		margin-top: 130px;
+		margin-left: 0;
+	}
+	
+	#headertext1 {
+		font-size: 42pt;
+		width: 70%;
+	}
+	
+	#headertext2 {	
+		font-size: 12pt;
+	}
+	
+	#navbar {
+		font-size: 11pt;
+	}
+	
+	#iphone-large {
+		display: none;
+	}
+	
+	#iphone-full {
+		display: block;
+		margin-top: -100px;
+		margin-right: 0;
+		float: right;
+	}
+	
+	/* Video */
+	
+	#video-large {
+		display: none;
+	}
+	
+	#video-full {
+		display: block;
+		background-color: #e9e9e9;
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	
+	/* Get in touch */
+	
+	#intouchtext {
+		margin-top: 65px;
+	}
+	
+	#map {
+		margin-top: -485px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	
+	/* Header */
+	
+	#header {
+		background-image:url(images/header-full-2.jpg);
+		height: 770px;
+	}
+	
+	#headertext {
+		width: 60%;
+	}
+	
+	#headertext1 {
+		width: 60%;
+	}
+	
+	#iphone-full {
+		display: none;
+	}
+	
+	#iphone-full-2 {
+		display: block;
+		margin-top: -80px;
+		margin-right: 0;
+		float: right;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	
+	/* Header */
+	
+	#header {
+		background-image:url(images/header-full-3.jpg);
+	}
+	
+	#headertext1 {
+		width: 70%;
+		font-size: 48pt;
+	}
+	
+	#headertext2 {
+		font-size: 16pt;
+		line-height: 200%;
+	}
+	
+	#navbar {
+		font-size: 14pt;
+	}
+}

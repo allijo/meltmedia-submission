@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Fonts */
+@font-face {
+    font-family: 'aleobold';
+    src: url('fonts/aleo_bold_macroman/Aleo-Bold-webfont.eot');
+    src: url('fonts/aleo_bold_macroman/Aleo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aleo_bold_macroman/Aleo-Bold-webfont.woff') format('woff'),
+         url('fonts/aleo_bold_macroman/Aleo-Bold-webfont.ttf') format('truetype'),
+         url('fonts/aleo_bold_macroman/Aleo-Bold-webfont.svg#aleobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aleolight';
+    src: url('fonts/aleo_light_macroman/Aleo-Light-webfont.eot');
+    src: url('fonts/aleo_light_macroman/Aleo-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aleo_light_macroman/Aleo-Light-webfont.woff') format('woff'),
+         url('fonts/aleo_light_macroman/Aleo-Light-webfont.ttf') format('truetype'),
+         url('fonts/aleo_light_macroman/Aleo-Light-webfont.svg#aleolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aleoregular';
+    src: url('fonts/aleo_regular_macroman/Aleo-Regular-webfont.eot');
+    src: url('fonts/aleo_regular_macroman/Aleo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aleo_regular_macroman/Aleo-Regular-webfont.woff') format('woff'),
+         url('fonts/aleo_regular_macroman/Aleo-Regular-webfont.ttf') format('truetype'),
+         url('fonts/aleo_regular_macroman/Aleo-Regular-webfont.svg#aleoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
