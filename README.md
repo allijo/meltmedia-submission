@@ -18,7 +18,7 @@ Notes:
 Thank you very much for this fun and rewarding project! I look forward to speaking with you further.
 Please let me know if you have any questions.
 
-Allison Kennedy
-allidoodle.weebly.com
-206.290.8494
+Allison Kennedy<br/>
+allidoodle.weebly.com<br/>
+206.290.8494<br/>
 kennedy@spu.edu
