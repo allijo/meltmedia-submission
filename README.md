@@ -3,14 +3,14 @@ meltmedia-submission
 
 My breakout submission for meltmedia's front-end development internship.
 
-Instructions:
-- Download zip file of this repository.
-- Open the resulting folder (meltmedia-submission-master).
-- Open allison-kennedy-test-FINAL folder.
-- Open allison-kennedy-test folder.
-- Click on the file "index.html" to view in default browser.
+<strong>Instructions:</strong><br/>
+1. Download zip file of this repository.<br/>
+2. Open the resulting folder (meltmedia-submission-master).<br/>
+3. Open allison-kennedy-test-FINAL folder.<br/>
+4. Open allison-kennedy-test folder.<br/>
+5. Click on the file "index.html" to view in default browser.
 
-Notes:
+<strong>Notes:</strong>
 - This code has been fully tested for compatibility with Safari, Chrome, and IE9.
 - It is mobile-first responsive, begun by developing code for 320px resolution.
 - Subsequent breakpoints include 482, 600, 768, 900, 1000, 1200, 1440, and 1600px.
