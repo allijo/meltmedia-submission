@@ -4,11 +4,11 @@ meltmedia-submission
 My breakout submission for meltmedia's front-end development internship.
 
 Instructions:
-1. Download zip file of this repository.
-2. Open the resulting folder (meltmedia-submission-master).
-3. Open allison-kennedy-test-FINAL folder.
-4. Open allison-kennedy-test folder.
-5. Click on the file "index.html" to view in default browser.
+- Download zip file of this repository.
+- Open the resulting folder (meltmedia-submission-master).
+- Open allison-kennedy-test-FINAL folder.
+- Open allison-kennedy-test folder.
+- Click on the file "index.html" to view in default browser.
 
 Notes:
 - This code has been fully tested for compatibility with Safari, Chrome, and IE9.
